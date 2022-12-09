@@ -6,7 +6,7 @@ package poop12;
 
 /**
  *
- * @author darwi
+ * @author equipoH
  */
 public class Principal {
 
@@ -14,7 +14,10 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Cuenta("Retiro 1").start();
+        new Cuenta("Retiro 2").start();
+        new Cuenta("Deposito 1").start();
+        new Cuenta("Deposito 2").start();
     }
     
 }
